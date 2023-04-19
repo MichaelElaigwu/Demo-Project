@@ -1,11 +1,11 @@
 variable "prefix" {
-  default = "jenkins"
+  default = "jenkins-Demo"
 }
 
 variable "ssh_key_name" {
-  default = "demoKP"
+  default = "DemoKP"
 }
 
 variable "ssh_private_key_path" {
-  default = "~/Documents/DevOps/AWS/"
+  default = "~/My-personal-project/cw-todo-app/jenkins-server"
 }
